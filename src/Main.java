@@ -21,6 +21,7 @@ public class Main {
             for (int[] ints : array) {
                 colSum += ints[col];
             }
+
             System.out.println(colSum);
         }
     }
