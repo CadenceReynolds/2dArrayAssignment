@@ -16,10 +16,10 @@ public class Main {
             System.out.println(rowSum);
         }
 
-        for (int[] col : array) {
+        for (int col = 0; col < array[0].length; col++) {
             int colSum = 0;
-            for (int value : col) {
-                colSum += value;
+            for (int[] ints : array) {
+                colSum += ints[col];
             }
             System.out.println(colSum);
         }
